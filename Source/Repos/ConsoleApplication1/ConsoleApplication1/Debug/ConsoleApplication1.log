@@ -1,0 +1,2 @@
+﻿  Source.c
+c:\users\andre\source\repos\consoleapplication1\consoleapplication1\source.c(59): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?

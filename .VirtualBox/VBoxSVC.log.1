@@ -1,0 +1,54 @@
+VirtualBox COM Server 5.2.26 r128414 win.amd64 (Jan 25 2019 18:59:02) release log
+00:00:00.135633 main     Log opened 2019-03-27T12:28:11.089033900Z
+00:00:00.135633 main     Build Type: release
+00:00:00.135633 main     OS Product: Windows 10
+00:00:00.135633 main     OS Release: 10.0.17134
+00:00:00.135633 main     OS Service Pack: 
+00:00:00.158574 main     DMI Product Name: X756UXK
+00:00:00.169546 main     DMI Product Version: 1.0       
+00:00:00.169546 main     Host RAM: 8072MB (7.8GB) total, 3291MB (3.2GB) available
+00:00:00.169546 main     Executable: F:\14.7_VM\tps\VirtualBox\VBoxSVC.exe
+00:00:00.169546 main     Process ID: 6228
+00:00:00.169546 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.205208          VirtualBox: object creation starts
+00:00:00.207202          Home directory: 'C:\Users\andre\.VirtualBox'
+00:00:00.209233          Installed Drivers:
+00:00:00.226152            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 5.2.26.28414)
+00:00:00.227149            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 5.2.26.28414)
+00:00:00.227149            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 5.2.26.28414)
+00:00:00.228146            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 5.2.26.28414)
+00:00:00.268040          Loading settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.332374          Getting USB descriptor failed with error 31
+00:00:00.351323          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb52b)
+00:00:00.351323          USB: Unknown USB device detected (idVendor: 0x12c9, idProduct: 0x1001)
+00:00:00.352320          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x3472)
+00:00:00.497272          netIfIsWireless: CreateFile on '\\.\{F4A9DB8C-75C1-4805-B0D4-7D543797F421}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.532180          HostDnsMonitor: old information
+00:00:00.532180            no server entries
+00:00:00.532180            no domain set
+00:00:00.532180            no search string entries
+00:00:00.532180          HostDnsMonitor: new information
+00:00:00.532180            server 1: 192.168.0.1
+00:00:00.532180            no domain set
+00:00:00.532180            no search string entries
+00:00:00.532180          HostDnsMonitorProxy::notify
+00:00:00.647871          VD: VDInit finished with VINF_SUCCESS
+00:00:00.743613          Loading settings file "C:\Users\andre\VirtualBox VMs\CentOS7\CentOS7.vbox" with version "1.16-windows"
+00:00:00.755581          Loading settings file "C:\Users\andre\VirtualBox VMs\test\test.vbox" with version "1.16-windows"
+00:00:00.756580          Loading settings file "C:\Users\andre\VirtualBox VMs\fdgh\fdgh.vbox" with version "1.15-windows"
+00:00:00.758574          VirtualBox: object created
+00:00:04.944998          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:04.989885          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:11.849438          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:15.760351          Saving settings file "C:\Users\andre\VirtualBox VMs\test\test.vbox" with version "1.16-windows"
+00:09:40.664352          Saving settings file "C:\Users\andre\VirtualBox VMs\test\test.vbox" with version "1.16-windows"
+00:09:40.712770          Saving settings file "C:\Users\andre\VirtualBox VMs\test\test.vbox" with version "1.16-windows"
+00:09:41.346526          Saving settings file "C:\Users\andre\VirtualBox VMs\test\test.vbox" with version "1.16-windows"
+00:17:11.936613          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:17:11.943594          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:17:17.460199 main     VirtualBox: object deletion starts
+00:17:17.740681 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\Users\andre\VirtualBox VMs\CentOS7\CentOS7.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:17:17.741678 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\Users\andre\VirtualBox VMs\test\test.vhd' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:17:17.741678 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\Users\andre\VirtualBox VMs\fdgh\fdgh.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:17:17.744745 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:17:17.745744 main     VirtualBox: object deleted

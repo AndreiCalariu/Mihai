@@ -1,0 +1,7 @@
+An     Durata         Titlu   Categorie     Premii
+1998	87	Wolverine	Actiune	Da
+2011	96	Punished	Thriller	Nu
+1987	101	Stay with me	Dragoste	Nu
+2017	159	The Nun	Actiune	Da
+2018	180	Police	Comedie	Nu
+
